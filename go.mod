@@ -1,4 +1,4 @@
-module github.com/StefMa/hugo-fresh
+module github.com/CRIXHub/hugo-fresh-crix
 
 go 1.12
 
