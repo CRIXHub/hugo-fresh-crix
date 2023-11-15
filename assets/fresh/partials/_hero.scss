@@ -1,12 +1,25 @@
 /* ==========================================================================
 Hero styles
 ========================================================================== */
+.hero-body:before {
 
+    background: url("/images/peeringla.jpg") no-repeat;
+    background-position: top;
+    background-blend-mode: lighten;
+    background-size: cover;
+    opacity: 30%;
+    content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+
+}
 .hero-body {
     padding-top: 6rem;
     padding-bottom: 6rem;
-    background: url("/images/skyline.svg") no-repeat;
-    background-position: bottom;
     .title, .subtitle {
         font-family: 'Open Sans', sans-serif;
     }
