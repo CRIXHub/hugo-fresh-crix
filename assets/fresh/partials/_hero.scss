@@ -5,6 +5,8 @@ Hero styles
 .hero-body {
     padding-top: 6rem;
     padding-bottom: 6rem;
+    background: url("/images/skyline.svg") no-repeat;
+    background-position: bottom;
     .title, .subtitle {
         font-family: 'Open Sans', sans-serif;
     }

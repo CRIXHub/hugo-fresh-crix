@@ -16,6 +16,9 @@ Section Styles
     &.section-half {
         height: 75vh !important;
     }
+    .is-medium {
+        padding: 1rem 4.5rem;
+    }
     .title, .subtitle {
         font-family: 'Open Sans', sans-serif;
 
